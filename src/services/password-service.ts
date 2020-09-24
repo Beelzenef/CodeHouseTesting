@@ -7,6 +7,7 @@ export class PasswordService {
     constructor() { }
     
     // Este servicio tiene muchos tests
+  // Nuevo comentario para triggerear pipeline en Azure DevOps
 
     passwordIsTooShort(passw: string){
         var result = false;
